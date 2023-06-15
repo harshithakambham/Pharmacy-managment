@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>
+		A Sample Tutorial for database connection.
+	</title>
+</head>
+<html>
+<head>
+	<title>
+		A Sample Tutorial for database connection.
+	</title>
+</head>
+<body bgcolor="#32e692">
+	<div align="center">
+		<!--<h1>Details Entry Form</h1>-->
+	</div>
+<form action="details_entry.php" method="post">
+	<table border="1" align="center">
+		<tr>
+			<td>
+			<label>Enter Company Name</label></td>
+			<td><input type="text" name="NAME"></td>
+		</tr>
+		<tr>
+			<td>
+			<label>Enter Address</label></td>
+			<td><input type="text" name="ADDRESS"></td>
+		</tr>
+		<tr>
+			<td>
+			<label>Enter Phone</label></td>
+			<td><input type="phone" name="PHONE"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center" ><input type="submit" name="save" value="Submit" style="font-size:20px"></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
